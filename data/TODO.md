@@ -1,3 +1,0 @@
-- Any auxiliary data needed for running methods
-    - If it’s small, put it in the repo
-    - If it’s large, link to it a file
