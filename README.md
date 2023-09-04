@@ -1,30 +1,19 @@
-# pipeline_template
-A template repository for pipeline code. For an example, see https://github.com/IGVF-UCSD/celloracle_pipeline/tree/dev. This should include:
+# data_template
+A template repository for pipeline code. For an example, see TODO. This should include:
 
-# `README.md` (this file)
-- With details on the method
+# `README.md`
+
+- with details on the dataset
+
+# `rules`
+
+- .smk file for snakemake file run to preprocess
 
 # `bin`
 
-- Compiled code that runs different iterations of each pipeline
+- Compiled code (scripts and notebooks) for processing this data
+- Will usually be some combination of bash scripts for running pipelines and notebooks for visualizing results
 
-## `pipeline_1`
+# `doc`
 
-- Maybe this is the simple one sample one run pipeline
-
-## `pipeline_2`
-
-- Maybe this is a SLURM pipeline
-
-## `...`
-
-# `data`
-
-- Any auxiliary data needed for running methods
-    - If it’s small, put it in the repo
-    - If it’s large, link to it a file
-
-# `env`
-
-- .def file for singularity set-up so you can run (recommended for reproducbility)
-- .yaml file for conda set-up so you can run (recommended for modifcation)
+- Any text or links to spreadsheet, docs etc.
