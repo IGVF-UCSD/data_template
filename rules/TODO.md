@@ -1,1 +1,0 @@
-Eventually all preprocessing should be done with Snakemake to ensure reproducibility. These rule files should run the different steps of the preprocessing pipeline using the Singularity containers (or conda envs) outlined in `env`
